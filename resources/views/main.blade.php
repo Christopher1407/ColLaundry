@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Anyar Bootstrap Template - Index</title>
+  <title>Collaundry</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -44,14 +44,17 @@
   <header id="header" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Collaundry</a></h1>
+      <a class="logo">
+          <img src="file://C:/Users/anggi/Pictures/logo collaundry.png">
+      </a>
 
+      <!-- .navbar -->
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
+          <li><a class="nav-link scrollto" href="#services">Service</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Harga</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -73,37 +76,33 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
     <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
-
       <!-- Slide 1 -->
       <div class="carousel-item active">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Anyar</span></h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <h2 class="animate__animated animate__fadeInDown">Selamat datang di <span>Collaundry</span></h2>
+          <p class="animate__animated animate__fadeInUp">Merupakan website penyedia jasa laundry untuk area Surabaya yang dikhususkan untuk Mahasiswa di sekitar kota Surabaya, namun juga melayani non-Mahasiswa</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
-
       <!-- Slide 2 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <h2 class="animate__animated animate__fadeInDown">Slide 2</h2>
+          <p class="animate__animated animate__fadeInUp">Slide 2</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
-
       <!-- Slide 3 -->
       <div class="carousel-item">
         <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <h2 class="animate__animated animate__fadeInDown">Slide 3</h2>
+          <p class="animate__animated animate__fadeInUp">Slide 3</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -115,7 +114,6 @@
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
       </a>
-
     </div>
   </section><!-- End Hero -->
 
@@ -128,46 +126,75 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <div class="icon"><i class='bx bx-phone-call'></i></i></div>
+              <h4 class="title"><a href="">Panggilan Cepat</a></h4>
+              <p class="description">Panggilan</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <div class="icon"><i class='bx bxs-wallet'></i></i></div>
+              <h4 class="title"><a href="">Hemat Uang</a></h4>
+              <p class="description">Hemat</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <div class="icon"><i class='bx bxs-t-shirt'></i></div>
+              <h4 class="title"><a href="">Hasil Terbaik</a></h4>
+              <p class="description">Hasil</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <div class="icon"><i class='bx bxs-time'></i></div>
+              <h4 class="title"><a href="">Tepat Waktu</a></h4>
+              <p class="description">Waktu</p>
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Icon Boxes Section -->
 
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>TENTANG KAMI</h2>
+          <p>.................................................................</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              .......................................
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>......................................</li>
+              <li><i class="ri-check-double-line"></i>......................................</li>
+              <li><i class="ri-check-double-line"></i>......................................</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              ......................................
+            </p>
+            <a href="#" class="btn-learn-more">Pelajari Lebih lanjut</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+    
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
   
-          <div class="section-title">
+          <div class="section-title"> 
             <h2>Contact Us</h2>
           </div>
   
@@ -180,13 +207,11 @@
                   <h4>Location:</h4>
                   <p>Surabaya</p>
                 </div>
-  
                 <div class="email">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
                   <p>info@example.com</p>
                 </div>
-  
                 <div class="phone">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
@@ -217,11 +242,8 @@
                 </div>
                 <div class="text-center"><button type="submit">Send Message</button></div>
               </form>
-  
             </div>
-  
           </div>
-  
         </div>
       </section><!-- End Contact Section -->
     </main><!-- End #main -->
@@ -247,7 +269,6 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -259,7 +280,6 @@
             </ul>
           </div>
 
-
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
@@ -267,21 +287,17 @@
               <strong>Phone:</strong> 0822 7777 6666<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
-
           </div>
-
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Anyar</h3>
+            <h3>Tentang Collaundry</h3>
             <p>Jasa Laundry yang diutamakan untuk Mahasiswa daerah Surabaya dan sekitarnya dengan pelayanan yang cepat</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="#" class="whatsapp   "><i class="bx bxl-whatsapp"></i></a>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -291,15 +307,10 @@
         &copy; Copyright <strong><span>Collaundry</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">Kelompok 6</a>
+        Designed by <a href="#">Kelompok 6</a>
       </div>
     </div>
   </footer><!-- End Footer -->
-
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
