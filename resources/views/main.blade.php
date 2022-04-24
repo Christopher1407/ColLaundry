@@ -45,7 +45,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <a class="logo">
-          <img src="file://C:/Users/anggi/Pictures/logo collaundry.png">
+          
       </a>
 
       <!-- .navbar -->
@@ -53,7 +53,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-          <li><a class="nav-link scrollto" href="#services">Service</a></li>
+          <li><a class="nav-link scrollto" href="harga.blade.php">Service</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Harga</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -269,7 +269,7 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -280,7 +280,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               Surabaya<br><br>
@@ -288,7 +288,7 @@
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
-          <div class="col-lg-3 col-md-6 footer-info">
+          <div class="col-lg-4 col-md-6 footer-info">
             <h3>Tentang Collaundry</h3>
             <p>Jasa Laundry yang diutamakan untuk Mahasiswa daerah Surabaya dan sekitarnya dengan pelayanan yang cepat</p>
             <div class="social-links mt-3">

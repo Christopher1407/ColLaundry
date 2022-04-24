@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('home', function (){
     return view('main');
 });
+
+Route::get('harga', function (){
+    return view('price');
+});
