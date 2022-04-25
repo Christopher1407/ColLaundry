@@ -53,7 +53,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-          <li><a class="nav-link scrollto" href="harga.blade.php">Service</a></li>
+          <li><a class="nav-link scrollto" href="price.blade.php">Service</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Harga</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
