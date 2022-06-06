@@ -112,15 +112,20 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   transition: all 0.5s;
   overflow: hidden;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 1);
   z-index: 996;
+}
+
+#topbar .fixed-top{
+  background: #000000;
 }
 #topbar.topbar-scrolled {
   top: -40px;
 }
 #topbar .contact-info a {
   line-height: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
   transition: 0.3s;
 }
 #topbar .contact-info a:hover {
@@ -139,8 +144,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(0, 0, 0, 0.1);
-  transition: all 0.5s;
+  background: rgba(5, 87, 158, 1);
+  transition: all 0.2s;
   z-index: 997;
   height: 70px;
   top: 60px;
@@ -149,28 +154,23 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(5, 87, 158, 0.9);
   top: 0;
 }
+
 #header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  margin: -250px;
 }
 #header .logo a {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 1);
 }
 #header .logo img {
   max-height: 40px;
-}
+} */
 
 .header-inner-pages {
-  background: rgba(5, 87, 158, 0.9) !important;
+  background: rgba(255, 255, 255, 0.9) !important;
 }
 
 .topbar-inner-pages {
-  background: rgba(6, 98, 178, 0.9) !important;
+  background: rgba(255, 255, 255, 0.9) !important;
 }
 
 /*--------------------------------------------------------------
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding: 0; 
 }
 .navbar ul {
   margin: 0;
