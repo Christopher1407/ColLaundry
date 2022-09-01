@@ -54,7 +54,7 @@ class Handler implements ExceptionHandlerContract
     /**
      * A list of the exception types that are not reported.
      *
-     * @var array<int, class-string<\Throwable>>
+     * @var string[]
      */
     protected $dontReport = [];
 
@@ -89,7 +89,7 @@ class Handler implements ExceptionHandlerContract
     /**
      * A list of the internal exception types that should not be reported.
      *
-     * @var array<int, class-string<\Throwable>>
+     * @var string[]
      */
     protected $internalDontReport = [
         AuthenticationException::class,
@@ -108,7 +108,7 @@ class Handler implements ExceptionHandlerContract
     /**
      * A list of the inputs that are never flashed for validation exceptions.
      *
-     * @var array<int, string>
+     * @var string[]
      */
     protected $dontFlash = [
         'current_password',

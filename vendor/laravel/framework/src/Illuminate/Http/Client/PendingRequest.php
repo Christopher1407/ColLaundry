@@ -90,13 +90,6 @@ class PendingRequest
     protected $options = [];
 
     /**
-     * A callback to run when throwing if a server or client error occurs.
-     *
-     * @var \Closure
-     */
-    protected $throwCallback;
-
-    /**
      * The number of times to try the request.
      *
      * @var int
@@ -555,19 +548,6 @@ class PendingRequest
     }
 
     /**
-     * Throw an exception if a server or client error occurs.
-     *
-     * @param  callable|null  $callback
-     * @return $this
-     */
-    public function throw(callable $callback = null)
-    {
-        $this->throwCallback = $callback ?: fn () => null;
-
-        return $this;
-    }
-
-    /**
      * Dump the request before sending.
      *
      * @return $this
@@ -744,10 +724,6 @@ class PendingRequest
                             $shouldRetry = false;
 
                             throw $exception;
-                        }
-
-                        if ($this->throwCallback) {
-                            $response->throw($this->throwCallback);
                         }
 
                         if ($attempt < $this->tries && $shouldRetry) {
